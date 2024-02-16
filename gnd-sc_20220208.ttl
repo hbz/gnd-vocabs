@@ -1,0 +1,2454 @@
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.14>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Insurance"@en , "Versicherung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Aesthetics"@en , "Ästhetik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Theatre, dance"@en , "Theater, Tanz"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General zoology"@en , "Allgemeine Zoologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Construction engineering"@en , "Bautechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Plant anatomy, plant physiology"@en , "Pflanzenanatomie, Pflanzenphysiologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Animal sociology, animal ecology, zoogeography, animal behaviour research"@en , "Tiersoziologie, Tierökologie, Tiergeografie, Verhaltensforschung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with biology in general, with microbiology"@en , "Personen zu allgemeiner Biologie, Mikrobiologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Dairy industry"@en , "Milchwirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Psychology (misc.), experimental psychology"@en , "Psychologie (Allgemeines), Experimentelle Psychologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of ideas and cultural history"@en , "Geistes- und Kulturgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#34.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with sports"@en , "Personen zu Sport"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9f>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Infections"@en , "Infektionen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social and cultural psychology, ethnopsychology"@en , "Sozial-, Kultur- und Ethnopsychologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.13b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Trade and commerce of specific branches, services of specific branches"@en , "Handel einzelner Branchen, Dienstleistung einzelner Branchen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Politik, Militär"@de , "Politics, military"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.11>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Gynecology and Obstetrics (Midwifery)"@en , "Gynäkologie, Geburtshilfe"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with physics"@en , "Personen zu Physik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Meteorology, climatology, upper atmosphere and near space, magnetosphere"@en , "Meteorologie, Klimatologie, Hochatmosphäre, Magnetosphäre"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Subject-related motifs in art"@en , "Sachliche Motive in der Kunst"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Liturgics, piety"@en , "Liturgik, Frömmigkeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Language (misc.)"@en , "Sprache (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Literary life"@en , "Literarisches Leben"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with broadcasting, with new media"@en , "Personen zu Rundfunk, Neuen Medien"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law of public streets and roads, traffic law, telecommunications law"@en , "Straßen- und Wegerecht, Verkehrsrecht, Telekommunikationsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Psychology, esotericism"@en , "Psychologie, Esoterik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Sculpture"@en , "Plastik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mikrobiologie"@de , "Microbiology"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Old Testament"@en , "Altes Testament"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.8b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Construction industry, construction operations and land market"@en , "Bauwirtschaft, Baubetrieb und Bodenmarkt"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.1d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Materials and material testing"@en , "Werkstoffkunde, Werkstoffprüfung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Writing, books and news media"@en , "Schrift, Buch, Presse"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with theatre, with dance"@en , "Personen zu Theater, Tanz"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#17*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Folklore, ethnology"@en , "Volkskunde, Ethnologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#14*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Music"@en , "Musik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Eastern churches and other Christian religious communities and sects"@en , "Ostkirchen und andere christliche Religionsgemeinschaften und Sekten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.12>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil law"@en , "Bürgerliches Recht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Budgets, consumers"@en , "Haushalt, Verbraucher"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Phonetics, phonology"@en , "Phonetik, Phonologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Costs"@en , "Kosten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with photography"@en , "Personen zu Fotografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#34.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Sports (misc.)"@en , "Sport (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with geography, with local and regional geography"@en , "Personen zu Geografie, Heimat- und Länderkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General therapy"@en , "Allgemeine Therapie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Energy engineering, nuclear technology"@en , "Energietechnik, Kerntechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Language"@en , "Sprache"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.3c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Church history: modern"@en , "Kirchengeschichte: Neuzeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Elementary particles, atomic and nuclear physics, molecular physics"@en , "Elementarteilchen, Kern-, Atom-, Molekularphysik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#00m>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Machine-generated records (placeholder)"@en , "Maschinell eingespielte Datensätze (Platzhalter)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with sculpture"@en , "Personen zu Plastik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Physiology"@en , "Physiologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with mathematics"@en , "Personen zu Mathematik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Philosophy (misc.)"@en , "Philosophie (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.2*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Domestic policy, political parties"@en , "Innenpolitik, Parteien"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.3d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Resource economics"@en , "Rohstoffwirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.13>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Woodworking and lumber processing"@en , "Holzbearbeitung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.8*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Manufacturing and industrial engineering, precision engineering"@en , "Fertigungstechnik, Feinwerktechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Chemistry (misc.)"@en , "Chemie (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1bp>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with art history and aesthetics | Persons associated with art history and aesthetics, art historians"@en , "Personen zu Kunstwissenschaft, Kunsthistoriker"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Agricultural policy, agricultural market, agricultural business operations"@en , "Agrarpolitik, Agrarmarkt, Landwirtschaftliche Betriebslehre"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Hematology, cardiology"@en , "Hämatologie, Kardiologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "School, professional education"@en , "Schule, Berufsausbildung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.4a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of supraregional areas: ancient"@en , "Geschichte überregionaler Gebiete: Altertum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Book studies, book trade"@en , "Buchwissenschaft, Buchhandel"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.4d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Paleontology"@en , "Paläontologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with general and comparative religious studies, with non-Christian religions"@en , "Personen zu allgemeiner und vergleichender Religionswissenschaft, Personen zu nichtchristlichen Religionen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2db>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Distribution of income and wealth"@en , "Verteilung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Earth sciences"@en , "Geowissenschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.5b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social insurance and statutory health insurance"@en , "Sozialversicherung und Gesetzliche Krankenversicherung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.17>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Dentistry"@en , "Zahnmedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Physiology (misc.), physiological chemistry"@en , "Physiologie (Allgemeines), Physiologische Chemie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Travel"@en , "Reise"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of supraregional areas"@en , "Geschichte überregionaler Gebiete"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.11b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law of professions"@en , "Berufsrecht (Rechtsvorschriften für einzelne Berufe)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic history"@en , "Wirtschaftsgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2ab>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic system"@en , "Wirtschaftssystem"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Domestic policy"@en , "Innenpolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Methods and techniques of empirical social research, statistics in the social sciences"@en , "Methoden und Techniken der empirischen Sozialforschung, Statistik in den Sozialwissenschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social sciences in general, sociological theories, statistics in the social sciences"@en , "Sozialwissenschaften (Allgemeines), Soziologische Theorien, Statistik in den Sozialwissenschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#20>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Astronomy, space exploration"@en , "Astronomie, Weltraumforschung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.9b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Tax law, customs law"@en , "Steuerrecht, Zollrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.8a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Manufacturing and industrial engineering"@en , "Fertigungstechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Higher education"@en , "Hochschule"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.7*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Environmental protection, area planning, landscape design"@en , "Umweltschutz, Raumordnung, Landschaftsgestaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.6b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Health law"@en , "Gesundheitsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#17.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Folklore, ethnology (misc.)"@en , "Volkskunde, Ethnologie (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Anatomy"@en , "Anatomie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.12d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil law: Family law"@en , "Bürgerliches Recht: Familienrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "School"@en , "Schule"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.3d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Socialisation, social behaviour"@en , "Sozialisation, Sozialverhalten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "State law, Constitutional law"@en , "Staatsrecht, Verfassungsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.4ab>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Specific professions, specific occupational activities, roles; Religious affiliation, worldview"@en , "Einzelne Berufe, Tätigkeiten, Funktionen; Religionszugehörigkeit, Weltanschauung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.15>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Advertising industry, public relations"@en , "Werbewirtschaft, Öffentlichkeitsarbeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Philosophy of culture"@en , "Kulturphilosophie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Industries (manufacturing and processing), industrial operations, skilled crafts"@en , "Industrie, Industriebetrieb, Handwerk"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Cabaret, circus, variety arts"@en , "Kabarett, Zirkus, Varieté"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Special zoology"@en , "Spezielle Zoologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Plant sociology, plant ecology, plant geography"@en , "Pflanzensoziologie, Pflanzenökologie, Pflanzengeografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.8>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Forestry"@en , "Forstwirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Psychodiagnostics, psychological tests and testing"@en , "Psychologische Diagnostik, Tests"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.7a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Environmental protection, environmental pollution"@en , "Umweltschutz, Umweltbelastung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with political theory, with military"@en , "Personen zu politischer Theorie, Militär"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2aa>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Parts of the Old Testament"@en , "Teile des Alten Testamentes"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#33.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with housekeeping, body care, fashion, clothing"@en , "Personen zu Hauswirtschaft, Körperpflege, Mode, Kleidung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5c*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Pastoral care, mission"@en , "Seelsorge, Mission"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Depth psychology"@en , "Tiefenpsychologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with politics (includes political scientists, state historians)"@en , "Personen (Politologen, Staatstheoretiker)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#34*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Sports"@en , "Sport"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.12>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Pediatrics"@en , "Kinderheilkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic history: ancient"@en , "Wirtschaftsgeschichte: Altertum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Historical linguistics"@en , "Historische Sprachwissenschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Technology and engineering"@en , "Technik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5f>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Military law"@en , "Wehrrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.8p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with archives, with museums"@en , "Personen zu Archiv, Museum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#14.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with music"@en , "Personen zu Musik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Painting"@en , "Malerei"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Examination methods, procedures and techniques applied in biology"@en , "Untersuchungsmethoden (Biologie)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "New Testament"@en , "Neues Testament"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.1e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of technology"@en , "Technikgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.4y>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geographic names as a motif in literature"@en , "Geografische Namen als literarisches Motiv"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with zoology"@en , "Personen zu Zoologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.4*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Labour, working world, labour unions"@en , "Arbeit, Arbeitswelt, Gewerkschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General biology, microbiology (misc.)"@en , "Allgemeine Biologie, Mikrobiologie (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.10*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Wirtschaftsrecht, Gewerblicher Rechtsschutz"@de , "Economic and business law, industrial property protection"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#26>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Anthropology"@en , "Anthropologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Practical theology"@en , "Praktische Theologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Botany (misc.)"@en , "Botanik (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Microeconomics, competition"@en , "Mikroökonomie, Wettbewerb"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Marketing, competition"@en , "Marketing, Wettbewerb"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.13>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law on religions, church law, state-church law"@en , "Religionsrecht, Kirchenrecht, Staatskirchenrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.14p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with insurance"@en , "Personen zur Versicherung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.8*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Administration of justice, procedural law, forensic medicine"@en , "Rechtspflege, Prozessrecht, Rechtsmedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#34.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of sports"@en , "Geschichte des Sports"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5ca>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Pastoral care"@en , "Seelsorge"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mechanical engineering"@en , "Maschinenbau"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Plasmas, gases, liquids (fluids), solids"@en , "Plasma, Gas, Flüssigkeit, Festkörper"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with business administration"@en , "Personen zu Betriebswirtschaftslehre"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with the history of literature (Authors)"@en , "Personen zu Literaturgeschichte (Schriftsteller)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Special administrative law"@en , "Besonderes Verwaltungsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.10>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Cooperatives, social economy, alternative economy"@en , "Genossenschaft, Gemeinwirtschaft, Alternative Wirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Philosophiegeschichte"@de , "History of philosophy"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.9p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with money, banking, stock exchange"@en , "Personen zu Geld, Bank, Börse"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Agriculture (misc.), history of agriculture"@en , "Landwirtschaft (Allgemeines), Landwirtschaftsgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.6p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with communications, traffic and transport, tourism | Persons associated with telecommunications, traffic and transport, tourism"@en , "Personen zu Telekommunikation und Verkehr, Fremdenverkehr"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.14>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Papermaking, pulp and paper technology, graphical print technique"@en , "Papierherstellung, Grafische Technik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.4a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Labour"@en , "Arbeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Biology (misc.)"@en , "Biologie (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Arable farming"@en , "Ackerbau"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Theoretical and physical chemistry"@en , "Theoretische und Physikalische Chemie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.10a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic and business law, economic supervisory law"@en , "Wirtschaftsrecht, Wirtschaftsaufsicht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with public tasks, public enconomy, with resource and energy economics"@en , "Personen zu öffentlichen Aufgaben, Öffentlicher Wirtschaft, Energie- und Rohstoffwirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social history: ancient"@en , "Sozialgeschichte: Altertum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Pulmonology"@en , "Pulmonologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.8a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Administration of justice, procedural law"@en , "Rechtspflege, Prozessrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.4b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geschichte überregionaler Gebiete: Mittelalter"@de , "History of supraregional areas: medieval"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "News media"@en , "Presse"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Zoology"@en , "Zoologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with writing, with codicology and manuscript studies"@en , "Personen zu Schrift, Handschriftenkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2dc>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic structure"@en , "Wirtschaftsstruktur"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil service law (includes judges)"@en , "Dienstrecht (auch Richter)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.18>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Sexual medicine"@en , "Sexualmedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.5c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social work, social welfare"@en , "Sozialarbeit, Sozialhilfe"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Blood, cardiovascular system, respiratory system"@en , "Blut, Kardiovaskuläres System, Atmungsorgan"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Chemistry"@en , "Chemie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with geology, mineralogy, historical geology, soil science, petrology, economic geology, paleontology"@en , "Personen zu Geologie, Mineralogie, Historischer Geologie, Boden-, Gesteins- und Lagerstättenkunde, Paläontologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of specific countries and peoples"@en , "Geschichte einzelner Länder und Völker"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.11c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fee law"@en , "Gebührenrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Lexicology, onomastics, languages for special purposes"@en , "Lexikologie, Namenkunde, Fachsprache"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2ac>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mathematical methods, information, decision-making"@en , "Mathematische Methoden, Information, Entscheidung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Legal history, constitutional history: ancient"@en , "Rechtsgeschichte, Verfassungsgeschichte: Altertum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Political parties, political organisations"@en , "Parteien, Politische Organisationen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General agriculture"@en , "Landwirtschaft (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.4*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Systematic theology"@en , "Systematische Theologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#36p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with handicrafts, needlework, home improvement"@en , "Personen zu Basteln, Handarbeiten, Heimwerken"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.8b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Precision engineering"@en , "Feinwerktechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Libraries, information and documentation"@en , "Bibliothek, Information und Dokumentation"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.6c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Criminology"@en , "Kriminologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#17.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Customs, folk beliefs"@en , "Brauchtum, Volksglaube"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.12e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil law: Inheritance law"@en , "Bürgerliches Recht: Erbrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.15p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with public administration"@en , "Personen zu öffentlicher Verwaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Professional education"@en , "Berufsausbildung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2ep>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Personen zu Außenwirtschaft, Außenhandel"@de , "Persons associated with international economics, with foreign trade"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#30p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Personen zur Informatik, Datenverarbeitung"@de , "Persons associated with computer science, with data processing"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.3e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Communication, formation of opinion"@en , "Kommunikation, Meinungsbildung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General administrative law"@en , "Allgemeines Verwaltungsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Lexicology"@en , "Lexikologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Specific branches of industry and skilled crafts"@en , "Einzelne Branchen der Industrie und des Handwerks"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.10>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fisheries, aquaculture"@en , "Fischerei, Fischzucht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law and legislation, general administration"@en , "Recht, Allgemeine Verwaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.4a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Systematic theology (misc.), fundamental theology"@en , "Systematische Theologie (Allgemeines), Fundamentaltheologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Film"@en , "Film"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Philosophy"@en , "Philosophie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with film"@en , "Personen zu Film"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.9>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Hunting"@en , "Jagd"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.7b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Area planning, urban planning, landscape design"@en , "Raumordnung, Stadtplanung, Landschaftsgestaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Politics (misc.), political theory"@en , "Politik (Allgemeines), Politische Theorie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Applied psychology, mental hygiene"@en , "Angewandte Psychologie, Psychohygiene"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History"@en , "Geschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.7p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with new forms of art"@en , "Personen zu neuen Formen der Kunst"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.13>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Neurology, psychiatry"@en , "Neurologie, Psychiatrie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.8*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Pharmacy, pharmacology, toxicology, immunology"@en , "Pharmazie, Pharmakologie, Toxikologie, Immunologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fine arts, photography"@en , "Bildende Kunst, Fotografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic history: medieval"@en , "Wirtschaftsgeschichte: Mittelalter"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.1c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Language techniques"@en , "Sprachliche Technik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with painting, drawing, graphic arts"@en , "Personen zu Malerei, Zeichnung, Grafik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Drawing, graphic arts"@en , "Zeichnung, Grafik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economics, traffic and transport, environmental protection, area planning"@en , "Wirtschaft, Verkehr, Umweltschutz, Raumordnung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1cy>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geographic names as a motif in art"@en , "Geografische Namen als künstlerisches Motiv"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with psychology"@en , "Personen zu Psychologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with botany"@en , "Personen zu Botanik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Church and denomination"@en , "Kirche und Konfession"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Boom and recession, distribution of income and wealth, economic structure"@en , "Konjunktur, Verteilung, Wirtschaftsstruktur"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11f>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Accounting, taxes, auditing"@en , "Rechnungswesen, Steuer, Revision"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "International law (includes law of nations and law of the European Communities, European Union), conflict of laws"@en , "Internationales Recht (einschließlich Völkerrecht und Recht der Europäischen Gemeinschaften, Europäischen Union), Kollisionsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#14.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Music (misc.), music history"@en , "Musik (Allgemeines), Musikgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General botany"@en , "Allgemeine Botanik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#34.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Specific sports and sports games"@en , "Einzelne Sportarten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Internal medicine"@en , "Innere Medizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5cb>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mission, Kirchliche Sozialarbeit"@de , "Mission, Christian social work"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Automotive engineering, material handling, aerospace engineering"@en , "Fahrzeugbau, Fördertechnik, Raumfahrttechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with church history, with systematic and practical theology, with church and denomination"@en , "Personen zu Kirchengeschichte, Systematischer und Praktischer Theologie, Kirche und Konfession"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with language"@en , "Personen zu Sprache"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.8a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Pharmacy, pharmacology, toxicology"@en , "Pharmazie, Pharmakologie, Toxikologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.2*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Education in general, history of education"@en , "Bildungswesen (Allgemeines), Geschichte  des Bildungswesens"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Epistemology, logic"@en , "Erkenntnistheorie, Logik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Technology and engineering, history of technology"@en , "Technik (Allgemeines), Technikgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.15>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Glass, ceramics, industrial minerals"@en , "Glas, Keramik, Steine und Erden"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.4b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Employees’ co-determination, labour unions"@en , "Mitbestimmung, Gewerkschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Genetics, evolution"@en , "Genetik, Evolution"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Horticulture and fruit production"@en , "Gartenbau, Obstbau"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Analytical chemistry, applied examination methods, procedures and techniques"@en , "Analytische Chemie und Untersuchungsmethoden"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.10b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Industrial property protection, copyright law"@en , "Gewerblicher Rechtsschutz, Urheberrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Business administration"@en , "Betriebswirtschaftslehre"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social history: medieval"@en , "Sozialgeschichte: Mittelalter"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Gastroenterology, endocrinopathy"@en , "Gastroenterologie, Endokrinopathie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.9*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Money, banking, stock exchange"@en , "Geld, Bank, Börse"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.8b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Forensic medicine"@en , "Rechtsmedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.4c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of supraregional areas: modern"@en , "Geschichte überregionaler Gebiete: Neuzeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.6*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Telecommunications, traffic and transport, tourism"@en , "Telekommunikation und Verkehr, Fremdenverkehr"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geodesy, cartography"@en , "Geodäsie, Kartografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Local law"@en , "Kommunalrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#33.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Housekeeping, body care"@en , "Hauswirtschaft, Körperpflege"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.19>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Special fields of medicine"@en , "Sondergebiete der Medizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.3c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Nutrition and dietetics, metabolism, internal secretion"@en , "Ernährung, Stoffwechsel, Inkretion"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Public tasks, public economy, resource and energy economics"@en , "Öffentliche Aufgaben, Öffentliche Wirtschaft, Energie- und Rohstoffwirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Education (misc.)"@en , "Bildungswesen (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Rechtsgeschichte, Verfassungsgeschichte: Mittelalter"@de , "Legal history, constitutional history: medieval"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Technology and engineering (misc.)"@en , "Technik (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of agriculture"@en , "Landwirtschaftsgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with nature, with natural sciences in general"@en , "Personen zu Natur, Naturwissenschaften allgemein"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General and comparative religious studies, Non-Christian religions"@en , "Allgemeine und vergleichende Religionswissenschaft, Nichtchristliche Religionen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Hygiene, healthcare"@en , "Hygiene, Gesundheitswesen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.8>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Archives, museums"@en , "Archiv, Museum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of literature"@en , "Literaturgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Business administration (misc.), business enterprises, management"@en , "Betriebswirtschaftslehre (Allgemeines), Unternehmen, Management"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#17.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Material culture, folk art"@en , "Sachkultur, Volkskunst"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons in history (Politicians and historic personalities)"@en , "Personen der Geschichte (Politiker und historische Persönlichkeiten)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General pathology, oncology, experimental medicine"@en , "Allgemeine Pathologie, Onkologie, Experimentelle Medizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.4*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geology, mineralogy"@en , "Geologie, Mineralogie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Physics (misc.), mathematical physics"@en , "Physik (Allgemeines), Mathematische Physik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Sanitary engineering, environmental engineering"@en , "Sanitärtechnik, Umwelttechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.9a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Monetary theory, monetary policy, currency"@en , "Geldtheorie, Geldpolitik, Währung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geography, local and regional geography"@en , "Geografie, Heimat- und Länderkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.6a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Communications, traffic and transport"@en , "Nachrichten- und Verkehrswesen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5b*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Homiletics, catechetics"@en , "Homiletik, Katechetik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Public tasks"@en , "Öffentliche Aufgaben"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Onomastics (Science of names)"@en , "Namenkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.10>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Verfahrenstechnik, Technische Chemie"@de , "Process engineering, industrial chemistry"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#33*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Housekeeping, body care, fashion, clothing"@en , "Hauswirtschaft, Körperpflege, Mode, Kleidung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.4b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Dogmatic theology"@en , "Dogmatik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.15*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Public administration, history of public administration"@en , "Öffentliche Verwaltung, Geschichte der Öffentlichen Verwaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Broadcasting, new media"@en , "Rundfunk, Neue Medien"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.7p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with libraries, with information and documentation"@en , "Personen zu Bibliothek, Information und Dokumentation"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with education"@en , "Personen zu Bildungswesen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social structure, social life, population"@en , "Sozialstruktur, Soziales Leben, Bevölkerung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with architecture, with construction engineering"@en , "Personen zu Architektur, Bautechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.4a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geology, geophysics"@en , "Allgemeine Geologie, Geophysik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Parapsychology"@en , "Parapsychologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with culture and arts, with history of ideas and cultural history"@en , "Personen zu Kultur und Künsten, Geistes- und Kulturgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.14>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Dermatology, venereology"@en , "Dermatologie, Venerologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Geography, local and regional geography (misc.)"@en , "Geografie, Heimat- und Länderkunde (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History (misc.)"@en , "Geschichte (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.1c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic history: modern"@en , "Wirtschaftsgeschichte: Neuzeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons as a motif in literarure"@en , "Personen als literarisches Motiv"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.13p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with trade and commerce, with services"@en , "Personen zu Handel, Dienstleistung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.7*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Criminal law, law of penal execution"@en , "Strafrecht, Strafvollzug"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Photography"@en , "Fotografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5ba>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Homiletics"@en , "Homiletik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.10p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with cooperatives, social economy, alternative economy"@en , "Personen zu Genossenschaft, Gemeinwirtschaft, Alternativer Wirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with literary criticism (Literary critics)"@en , "Personen zu Literaturwissenschaft (Literaturwissenschaftler)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.15a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Public administration, civil service"@en , "Öffentliche Verwaltung, Öffentlicher Dienst"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.8p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with construction, with land"@en , "Personen zu Bau, Boden"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law and legislation, public law in general, private law in general, comparative law"@en , "Recht (Allgemeines), Öffentliches Recht (Allgemeines), Privatrecht (Allgemeine)s, Rechtsvergleich"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2ea>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "International economics, foreign trade (macroeconomic)"@en , "Außenwirtschaft, Außenhandel gesamtwirtschaftlich"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#28>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mathematics"@en , "Mathematik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.12a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil law: Generalities"@en , "Bürgerliches Recht: Allgemeiner Teil"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "International economics, foreign trade"@en , "Außenwirtschaft, Außenhandel"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with finance (business and public), with financial policy"@en , "Personen zu Finanzwirtschaft, Finanzpolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11g>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Investment, financing"@en , "Investition, Finanzierung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#14.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Musical forms and genres"@en , "Musikalische Form, Musikgattung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Special botany"@en , "Spezielle Botanik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social structure, social life, population (misc.), society in general"@en , "Soziales Leben, Bevölkerung (Allgemeines), Gesellschaft allgemein"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#00p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons not classifiable by subject"@en , "Sachlich nicht klassifizierbare Personen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fine arts, art history, motifs"@en , "Bildende Kunst, Kunstgeschichte, Motive"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.8b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Immunology"@en , "Immunologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Medicine"@en , "Medizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with news media"@en , "Personen zu Presse"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Industries in general, industries (manufacturing and processing), skilled crafts"@en , "Gewerbe allgemein, Industrie, Handwerk"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Metaphysik"@de , "Metaphysics"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.7a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Criminal law"@en , "Strafrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#24*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Botany"@en , "Botanik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.16>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Military engineering"@en , "Militärtechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Inorganic chemistry"@en , "Anorganische Chemie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Physics"@en , "Physik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Literary genres"@en , "Literaturgattung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.3p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with hydrology, with oceanography"@en , "Personen zu Hydrologie, Meereskunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Phytomedicine"@en , "Phytomedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Theory of language"@en , "Sprachtheorie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law and legislation, philosophy of law"@en , "Recht (Allgemeines), Rechtsphilosophie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.1c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social history: modern"@en , "Sozialgeschichte: Neuzeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Urology, nephrology, andrology"@en , "Urologie, Nephrologie, Andrologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#35p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with games and entertainment"@en , "Personen zu Spiel, Unterhaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.4d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of supraregional areas: contemporary history"@en , "Geschichte überregionaler Gebiete: Zeitgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Hydrology, oceanography"@en , "Hydrologie, Meereskunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fine arts, photography (misc.) | Fine arts"@en , "Bildende Kunst"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Construction law, regional planning law, land law, environmental law, law of historical preservation"@en , "Baurecht, Raumordnungsrecht, Bodenrecht, Umweltrecht, Denkmalschutz"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#33.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Cooking, baking, food and luxury foods, kitchenware"@en , "Kochen, Backen, Lebens- und Genussmittel, Küchengerät"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.3d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Skin, bones, nerves, muscles, sensory organs"@en , "Haut, Knochen, Nerven, Muskeln, Sinnesorgane"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#17.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with folklore, with ethnology"@en , "Personen zu Volkskunde, Ethnologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2dp>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with economics"@en , "Personen zu Wirtschaftswissenschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with law"@en , "Personen zum Recht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic policy"@en , "Wirtschaftspolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of education"@en , "Geschichte des Bildungswesens"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.2c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Legal history, constitutional history: modern"@en , "Rechtsgeschichte, Verfassungsgeschichte: Neuzeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Engineering physics, engineering mathematics"@en , "Technische Physik, Technische Mathematik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with sociology, society, labour, social history"@en , "Personen zu Soziologie, Gesellschaft, Arbeit, Sozialgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.10p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with agriculture, with horticulture and gardening"@en , "Personen zu Landwirtschaft, Garten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "The Bible"@en , "Bibel"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Sociology, society, labour, social history"@en , "Soziologie, Gesellschaft, Arbeit, Sozialgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.21>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Veterinary medicine"@en , "Tiermedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Catholic Church"@en , "Katholische Kirche"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Anonymous literary works"@en , "Anonyme literarische Werke"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Allgemeine Sprachtheorie"@de , "General theory of language"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mathematical methods, information, decision-making"@en , "Mathematische Methoden, Information, Entscheidung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Culture, education, science"@en , "Kultur, Erziehung, Bildung, Wissenschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#17.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Folk literature, folk music"@en , "Volksliteratur, Volksmusik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General diagnostics"@en , "Allgemeine Diagnostik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Church history: ancient"@en , "Kirchengeschichte: Antike"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mechanics, heat, acoustics"@en , "Mechanik, Wärme, Akustik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11m>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Specialised information systems, computer programs"@en , "Spezielle Informationssysteme, Programme"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.9b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Bank and banking"@en , "Bank"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Religion"@en , "Religion"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with cabaret, circus, variety shows"@en , "Personen zu Kabarett, Zirkus, Varieté"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.6b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fremdenverkehr, Hotel- und Gaststättengewerbe"@de , "Tourism, hotel and catering industry"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#35>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Games and entertainment"@en , "Spiel, Unterhaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#15*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Theater, Tanz, Film, Rundfunk"@de , "Theatre, dance, film, broadcasting"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Public economy, waste management, health economics"@en , "Öffentliche Wirtschaft, Abfallwirtschaft, Gesundheitsökonomie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.3c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Languages for special purposes"@en , "Fachsprache"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.11>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Food technology"@en , "Lebensmitteltechnologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.6p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with arts and crafts"@en , "Personen zu Kunsthandwerk"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Literature"@en , "Literatur"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.4c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Theological anthropology, Christian ethics"@en , "Theologische Anthropologie, Christliche Ethik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with parapsychology, with esotericism"@en , "Personen zu Parapsychologie, Esoterik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#29p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with stochastics, with operations research"@en , "Personen zu Stochastik, Operations Research"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Foreign policy"@en , "Außenpolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Medicine (misc.), history of medicine"@en , "Medizin (Allgemeines), Medizingeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#26p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with anthropology"@en , "Personen zu Anthropologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.4b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Historical geology"@en , "Historische Geologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Esotericism"@en , "Esoterik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.9*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Electrical engineering, electronics"@en , "Elektrotechnik, Elektronik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.15>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Otolaryngology (Ear, nose and throat)"@en , "Hals-Nasen-Ohren-Heilkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Physical geography"@en , "Physische Geografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Historical sources and auxiliary sciences of history"@en , "Quellen und Historische Hilfswissenschaften"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1cp>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons as a motif in art"@en , "Personen als künstlerisches Motiv"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Arts and crafts"@en , "Kunsthandwerk"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with astronomy, with space exploration"@en , "Personen zu Astronomie, Weltraumforschung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.5bb>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Catechetics, Christian education, church educational work"@en , "Katechetik, Christliche Erziehung, Kirchliche Bildungsarbeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.3*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Architecture, construction engineering"@en , "Architektur, Bautechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Teaching"@en , "Unterricht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with the Bible"@en , "Personen der Bibel"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.15b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of public administration"@en , "Geschichte der öffentlichen Verwaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Culture and arts, Geistesgeschichte and cultural history"@en , "Kultur und Künste, Geistes- und Kulturgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2eb>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "International economics, foreign trade (business)"@en , "Außenwirtschaft, Außenhandel betrieblich"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#29>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Stochastics, operations research"@en , "Stochastik, Operations Research"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.12b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil law: Law of obligations"@en , "Bürgerliches Recht: Schuldrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11h>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Personnel policy, working conditions"@en , "Personalpolitik, Arbeitsgestaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.13*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Trade and commerce, services"@en , "Handel, Dienstleistung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#14.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Organology, design and construction of musical instruments"@en , "Musikinstrumentenkunde, Musikinstrumentenbau"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#30m>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Products (hardware and software)"@en , "Informatikprodukte (Hardware- und Softwareprodukte)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Population, social structure, social situation, social movements"@en , "Bevölkerung, Sozialstruktur, Soziale Situation, Soziale Bewegungen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Medicine (misc.)"@en , "Medizin (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Literature (misc.)"@en , "Literatur (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#30>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Computer science, data processing"@en , "Informatik, Datenverarbeitung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.9a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Electrical engineering, power engineering"@en , "Elektrotechnik, Elektrische Energietechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.16p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with technology and engineering (without architecture and construction engineering)"@en , "Personen zu Technik (ohne Architektur, Bautechnik)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.8*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Construction and land"@en , "Bau und Boden"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Ethik, Philosophische Anthropologie, Sozialphilosophie"@de , "Ethics, philosophical anthropology, social philosophy"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#00>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Non-specific headings"@en , "Unspezifische Allgemeinwörter"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.7b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Law of penal execution"@en , "Strafvollzug"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Zoology (misc.)"@en , "Zoologie (Allgemeines)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.3a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Architecture"@en , "Architektur"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#25.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Veterinary anatomy, animal physiology"@en , "Anatomie, Tierphysiologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#GndSubjectCategoryValue>
+        a                    owl:Class ;
+        rdfs:comment         "Die möglichen Instanzen dieser Klasse sind beschränkt auf diejenigen\n            skos:Concepts, die zum Concept Scheme <https://d-nb.info/standards/vocab/gnd/gnd-sc#> gehören."@de , "The possible members of this class is restricted to those skos:Concepts\n            that are in the Concept Scheme <https://d-nb.info/standards/vocab/gnd/gnd-sc#>."@en ;
+        rdfs:label           "Werte für GND-Sachgruppen"@de , "GND Subject Categories Value"@en ;
+        rdfs:subClassOf      skos:Concept ;
+        owl:equivalentClass  [ a               owl:Restriction ;
+                               owl:hasValue    <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+                               owl:onProperty  skos:inScheme
+                             ] .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Literary motifs, materials, figures"@en , "Literarische Motive, Stoffe, Gestalten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Organic chemistry"@en , "Organische Chemie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Animal breeding, animal farming"@en , "Tierzucht, Tierhaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economics, national economy"@en , "Wirtschaft, Volkswirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Culture, general arts"@en , "Kultur, Künste allgemein"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Comparative law"@en , "Rechtsvergleich"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2-3.6*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Christianity"@en , "Christentum"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.9e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Bones, joints, muscles"@en , "Knochen, Gelenke, Muskeln"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Developmental psychology, comparative Psychology"@en , "Entwicklungspsychologie, Vergleichende Psychologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.13a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Trade and commerce in general, services in general"@en , "Handel allgemein, Dienstleistung allgemein"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.10>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Surgery, orthopaedics"@en , "Chirurgie, Orthopädie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#33.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Fashion, clothing"@en , "Mode, Kleidung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General literary criticism"@en , "Allgemeine Literaturwissenschaft, Literaturtheorie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Art history"@en , "Kunstgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.5d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Cultural law, press law, broadcasting law, educational law, law of (scientific) research"@en , "Kulturrecht, Presserecht, Rundfunkrecht, Bildungswesen und Forschungsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.3e>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Urinary and genital organs"@en , "Harn- und Geschlechtsorgane"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Biochemistry, biophysics, cytology"@en , "Biochemie, Biophysik, Zytologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#22.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with chemistry"@en , "Personen zu Chemie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General subjects, interdisciplinary general headings"@en , "Allgemeines, Interdisziplinäre Allgemeinwörter"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.8a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Public and private construction activities, construction and land policy"@en , "Öffentliche und private Bautätigkeit, Bau- und Bodenpolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Finance (business and public), financial policy"@en , "Finanzwirtschaft, Finanzpolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.1c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Instrumentation and control engineering"@en , "Mess-, Steuerungs- und Regelungstechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with history (Historians, archaeologists)"@en , "Personen der Geschichtswissenschaft (Historiker, Archäologen)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.2ba>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Parts of the New Testament"@en , "Teile des Neuen Testamentes"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Church history"@en , "Kirchengeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Protestant churches"@en , "Evangelische Kirchen"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Wirtschaft, Volkswirtschaft (Allgemeines)"@de , "Economics, national economy (misc.)"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Grammar"@en , "Grammatik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Procurement, production"@en , "Beschaffung, Produktion"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#32*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Agriculture, horticulture and gardening"@en , "Landwirtschaft, Garten"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.6>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Medical radiology, nuclear medicine"@en , "Medizinische Radiologie, Nuklearmedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#3.3b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Church history: medieval"@en , "Kirchengeschichte: Mittelalter"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#21.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Electricity, magnetism, light and optics"@en , "Elektrizität, Magnetismus, Optik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mining, metallurgical furnace technology"@en , "Bergbau, Hüttentechnik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.9c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Capital market, stock exchange, capital investment"@en , "Kapitalmarkt, Börse, Kapitalanlage"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.5*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social policy, social work"@en , "Sozialpolitik, Sozialarbeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.11*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Labour law, social law, law on fees"@en , "Arbeitsrecht, Sozialrecht, Gebührenrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#36>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Handicrafts, needlework, home improvement"@en , "Basteln, Handarbeiten, Heimwerken"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.3c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Energy and water management"@en , "Energie- und Wasserwirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.3d>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Anonymous work as language monument"@en , "Anonymes Werk als Sprachdenkmal"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.12>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Textiltechnik, Gummi- und Lederverarbeitung"@de , "Textile engineering, rubber and leather processing"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.15p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with advertising industry, with public relations"@en , "Personen zu Werbewirtschaft, Öffentlichkeitsarbeit"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.9*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Financial law, tax law, customs law"@en , "Finanzrecht, Steuerrecht, Zollrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with philosophy"@en , "Personen zur Philosophie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.12p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with industries in general, industries (manufacturing and processing), skilled crafts"@en , "Personen zu Gewerbe allgemein, Industrie, Handwerk"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.6*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Polizeirecht, Gesundheitsrecht, Kriminologie"@de , "Police law, health law, criminology"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Military"@en , "Militär"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Writing, codicology and manuscript studies"@en , "Schrift, Handschriftenkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.4c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Mineralogy, soil science, petrology, economic geology"@en , "Mineralogie, Boden-, Gesteins- und Lagerstättenkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.3ab>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Ortsgebundene Bauwerke"@de , "Buildings (stationary)"@en .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.7p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with environmental protection, area planning, landscape design"@en , "Personen zu Umweltschutz, Raumordnung, Landschaftsgestaltung"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2da>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Economic cycle, boom and recession"@en , "Wirtschaftskreislauf, Konjunktur"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#18>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Nature, general natural sciences"@en , "Natur, Naturwissenschaften allgemein"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.5a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social policy, aid"@en , "Sozialpolitik, Entwicklungshilfe"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.16>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Ophthalmology"@en , "Augenheilkunde"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Anthropogeography"@en , "Anthropogeografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#16.3>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Archaeology, prehistory and early history"@en , "Archäologie, Vor- und Frühgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.11a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Labour law, social law, collective bargaining law"@en , "Arbeitsrecht, Sozialrecht, Recht der Tarifverträge"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.4p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with economic policy"@en , "Personen zu Wirtschaftspolitik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.2aa>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "National economy"@en , "Volkswirtschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.2a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social sciences in general, sociological theories"@en , "Sozialwissenschaften (Allgemeines), Soziologische Theorien"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#13.7>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "New forms of art"@en , "Neue Formen der Kunst"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.1p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with economic history (to ca. 1900)"@en , "Personen zu Wirtschaftsgeschichte (bis ca. 1900)"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.1>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social history"@en , "Sozialgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#>
+        a                              owl:Ontology , skos:ConceptScheme ;
+        rdfs:comment                   "\n            Changes from 2019-10-15 to 2021-02-08\n\t\t\tAdd english labels\n\t\t\tChanges from 2017-09-12 to 2019-10-15\n\t\t\tAll d-nb.info-URIs changed from http to https\n\t\t"@en ;
+        cc:license                     <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dc:description                 "The GND Subject Categories can be used to facilitate a\n\t\tsystematic access to subject headings and individual names in the Integrated Authority File\n\t\t(Gemeinsame Normdatei, GND), and also to create topical extracts or tranches thereof."@en , "Die GND-Sachgruppen werden dazu verwendet, einen systematischen\n\t\tZugang zu Individualnamen und Sachschlagwörtern der Gemeinsamen Normdatei (GND) zu ermöglichen und\n\t\tfachliche oder Ausschnitte oder Teilausgaben zu bilden."@de ;
+        dc:title                       "GND Subject Categories"@en , "GND-Sachgruppen"@de ;
+        dct:available                  "2022-02-08"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:creator                    <file:///home/svensson/teamcity/TeamCity/buildAgent/work/b7c1b24fb5f6cfc7/src/main/resources/rdf/standards/vocab/gnd/gnd-sc.rdf#alexanderHaffner> ;
+        dct:issued                     "2012-06-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dct:modified                   "2021-10-14T10:31:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:publisher                  <http://ld.zdb-services.de/resource/organisations/DE-101> ;
+        dct:rights                     "Copyright 2012-2022 Deutsche Nationalbibliothek" ;
+        vann:preferredNamespacePrefix  "gnd-sc" ;
+        vann:preferredNamespaceUri     "https://d-nb.info/standards/vocab/gnd/gnd-sc#" ;
+        owl:imports                    skos: ;
+        owl:priorVersion               <https://d-nb.info/standards/vocab/gnd/gnd-sc_20191015> ;
+        owl:versionIRI                 <https://d-nb.info/standards/vocab/gnd/gnd-sc_20220208> ;
+        owl:versionInfo                "1.3" .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.9a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Financial law"@en , "Finanzrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#6.5>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Science"@en , "Wissenschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#2.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with book studies, with book trade"@en , "Personen zu Buchwissenschaft, Buchhandel"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#5.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Psychology in general, tests and testing"@en , "Psychologie (Allgemeines), Tests"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.6a>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Police law, regulatory law"@en , "Polizeirecht, Ordnungsrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#23*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "General biology, microbiology"@en , "Allgemeine Biologie, Mikrobiologie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.5p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with meteorology, climatology, upper atmosphere and near space, magnetosphere"@en , "Personen zu Meteorologie, Klimatologie, Hochatmosphäre, Magnetosphäre"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.12c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Civil law: Property law"@en , "Bürgerliches Recht: Sachenrecht"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with medicine, with veterinary medicine"@en , "Personen zu Medizin, Tiermedizin"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#10.11i>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Office, business communication"@en , "Büro, Bürokommunikation"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#14.4>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Systematic and Applied Musicology"@en , "Systematische und Angewandte Musikwissenschaft"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#9.3c>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Social groups, organisational sociology, interaction"@en , "Gruppe, Organisationssoziologie, Interaktion"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#27.1b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "History of medicine"@en , "Medizingeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#19.2p>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Persons associated with geodesy, with cartography"@en , "Personen zu Geodäsie, Kartografie"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#11.1*>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Language (misc.), historical linguistics, language techniques"@en , "Sprache (Allgemeines), Historische Sprachwissenschaft, Sprachliche Technik"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#7.2>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Legal history, constitutional history"@en , "Rechtsgeschichte, Verfassungsgeschichte"@de .
+
+<https://d-nb.info/standards/vocab/gnd/gnd-sc#31.9b>
+        a               skos:Concept ;
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/gnd-sc#> ;
+        skos:prefLabel  "Electronics, telecommunications engineering"@en , "Elektronik, Kommunikationstechnik"@de .
