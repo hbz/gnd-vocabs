@@ -32,7 +32,8 @@
         owl:imports                    skos: ;
         owl:priorVersion               <http://d-nb.info/standards/vocab/gnd/gender2017-09-12> ;
         owl:versionIRI                 <https://d-nb.info/standards/vocab/gnd/gender_20191015> ;
-        owl:versionInfo                "1.2" .
+        owl:versionInfo                "1.2" ;
+        skos:hasTopConcept <https://d-nb.info/standards/vocab/gnd/gender#female>, <https://d-nb.info/standards/vocab/gnd/gender#male>, <https://d-nb.info/standards/vocab/gnd/gender#notKnown> .
 
 <https://d-nb.info/standards/vocab/gnd/gender#female>
         a                skos:Concept ;
