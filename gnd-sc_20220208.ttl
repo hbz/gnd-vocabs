@@ -9,6 +9,214 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
+<>
+        a                              skos:ConceptScheme ;
+        rdfs:comment                   "\n            Changes from 2019-10-15 to 2021-02-08\n\t\t\tAdd english labels\n\t\t\tChanges from 2017-09-12 to 2019-10-15\n\t\t\tAll d-nb.info-URIs changed from http to https\n\t\t"@en ;
+        cc:license                     <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dc:description                 "The GND Subject Categories can be used to facilitate a\n\t\tsystematic access to subject headings and individual names in the Integrated Authority File\n\t\t(Gemeinsame Normdatei, GND), and also to create topical extracts or tranches thereof."@en , "Die GND-Sachgruppen werden dazu verwendet, einen systematischen\n\t\tZugang zu Individualnamen und Sachschlagwörtern der Gemeinsamen Normdatei (GND) zu ermöglichen und\n\t\tfachliche oder Ausschnitte oder Teilausgaben zu bilden."@de ;
+        dc:title                       "GND Subject Categories"@en , "GND-Sachgruppen"@de ;
+        dct:available                  "2022-02-08"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:creator                    <file:///home/svensson/teamcity/TeamCity/buildAgent/work/b7c1b24fb5f6cfc7/src/main/resources/rdf/standards/vocab/gnd/gnd-sc.rdf#alexanderHaffner> ;
+        dct:issued                     "2012-06-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dct:modified                   "2021-10-14T10:31:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:publisher                  <http://ld.zdb-services.de/resource/organisations/DE-101> ;
+        dct:rights                     "Copyright 2012-2022 Deutsche Nationalbibliothek" ;
+        vann:preferredNamespacePrefix  "gnd-sc" ;
+        vann:preferredNamespaceUri     "https://d-nb.info/standards/vocab/gnd/gnd-sc#" ;
+        owl:imports                    skos: ;
+        owl:priorVersion               <https://d-nb.info/standards/vocab/gnd/gnd-sc_20191015> ;
+        owl:versionIRI                 <https://d-nb.info/standards/vocab/gnd/gnd-sc_20220208> ;
+        owl:versionInfo                "1.3" ;
+        skos:hasTopConcept <00>, <1> , <2*> , <3*> , <4*>, <5*> , <6*> , <7*> ,  <8*> , <9*> , <10*>, <11*> , <12*> , <13*> , <14*> , <15*> , <16*> , <17*> , <18> , <19> , <20> , <21*> , <22*> , <23*> , <24*> , <25*> , <26> , <27*> , <28> , <29> , <30> , <31*> , <32*> , <33*> , <34*> , <35> , <36> .
+
+<00>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Non-specific headings"@en , "Unspezifische Allgemeinwörter"@de .
+
+<1>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "General subjects, interdisciplinary general headings"@en , "Allgemeines, Interdisziplinäre Allgemeinwörter"@de .
+
+<2*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Writing, books and news media"@en , "Schrift, Buch, Presse"@de ;
+        skos:narrower   <2.1> , <2.2> , <2.3> .
+
+<3*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Religion"@en , "Religion"@de ;
+        skos:narrower   <3.1> , <3.2> , <3.3> , <3.4*> , <3.5> , <3.6> .
+
+<4*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Philosophy"@en , "Philosophie"@de .
+
+<5*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Psychology, esotericism"@en , "Psychologie, Esoterik"@de .
+
+<6*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Culture, education, science"@en , "Kultur, Erziehung, Bildung, Wissenschaft"@de .
+
+<7*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Law and legislation, general administration"@en , "Recht, Allgemeine Verwaltung"@de .
+
+<8*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Politik, Militär"@de , "Politics, military"@en .
+
+<9*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Sociology, society, labour, social history"@en , "Soziologie, Gesellschaft, Arbeit, Sozialgeschichte"@de .
+
+<10*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Economics, traffic and transport, environmental protection, area planning"@en , "Wirtschaft, Verkehr, Umweltschutz, Raumordnung"@de .
+
+<11*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Language"@en , "Sprache"@de .
+
+<12*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Literature"@en , "Literatur"@de .
+
+<13*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Fine arts, photography"@en , "Bildende Kunst, Fotografie"@de .
+
+<14*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Music"@en , "Musik"@de .
+
+<15*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Theater, Tanz, Film, Rundfunk"@de , "Theatre, dance, film, broadcasting"@en .
+
+<16*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "History"@en , "Geschichte"@de .
+
+<17*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Folklore, ethnology"@en , "Volkskunde, Ethnologie"@de .
+
+<18>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Nature, general natural sciences"@en , "Natur, Naturwissenschaften allgemein"@de .
+
+<19>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Earth sciences"@en , "Geowissenschaften"@de .
+
+<20>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Astronomy, space exploration"@en , "Astronomie, Weltraumforschung"@de .
+
+<21*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Physics"@en , "Physik"@de .
+
+<22*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Chemistry"@en , "Chemie"@de .
+
+<23*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "General biology, microbiology"@en , "Allgemeine Biologie, Mikrobiologie"@de .
+
+<24*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Botany"@en , "Botanik"@de .
+
+<25*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Zoology"@en , "Zoologie"@de .
+
+<26>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Anthropology"@en , "Anthropologie"@de .
+
+<27*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Medicine"@en , "Medizin"@de .
+
+<28>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Mathematics"@en , "Mathematik"@de .
+
+<29>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Stochastics, operations research"@en , "Stochastik, Operations Research"@de .
+
+<30>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Computer science, data processing"@en , "Informatik, Datenverarbeitung"@de .
+
+<31*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Technology and engineering"@en , "Technik"@de .
+
+<32*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Agriculture, horticulture and gardening"@en , "Landwirtschaft, Garten"@de .
+
+<33*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Housekeeping, body care, fashion, clothing"@en , "Hauswirtschaft, Körperpflege, Mode, Kleidung"@de .
+
+<34*>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Sports"@en , "Sport"@de .
+
+<35>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Games and entertainment"@en , "Spiel, Unterhaltung"@de .
+
+<36>
+        a               skos:Concept ;
+        skos:inScheme   <> ;
+        skos:prefLabel  "Handicrafts, needlework, home improvement"@en , "Basteln, Handarbeiten, Heimwerken"@de .
+
 <10.14>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -84,11 +292,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Trade and commerce of specific branches, services of specific branches"@en , "Handel einzelner Branchen, Dienstleistung einzelner Branchen"@de .
 
-<8*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Politik, Militär"@de , "Politics, military"@en .
-
 <27.11>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -134,11 +337,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Law of public streets and roads, traffic law, telecommunications law"@en , "Straßen- und Wegerecht, Verkehrsrecht, Telekommunikationsrecht"@de .
 
-<5*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Psychology, esotericism"@en , "Psychologie, Esoterik"@de .
-
 <13.2>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -164,26 +362,11 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Materials and material testing"@en , "Werkstoffkunde, Werkstoffprüfung"@de .
 
-<2*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Writing, books and news media"@en , "Schrift, Buch, Presse"@de ;
-        skos:narrower   <2.1> , <2.2> , <2.3> .
 
 <15.1p>
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Persons associated with theatre, with dance"@en , "Personen zu Theater, Tanz"@de .
-
-<17*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Folklore, ethnology"@en , "Volkskunde, Ethnologie"@de .
-
-<14*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Music"@en , "Musik"@de .
 
 <3.6c>
         a               skos:Concept ;
@@ -234,11 +417,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Energy engineering, nuclear technology"@en , "Energietechnik, Kerntechnik"@de .
-
-<11*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Language"@en , "Sprache"@de .
 
 <3.3c>
         a               skos:Concept ;
@@ -346,11 +524,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Distribution of income and wealth"@en , "Verteilung"@de .
 
-<19>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Earth sciences"@en , "Geowissenschaften"@de .
-
 <9.5b>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -405,11 +578,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Social sciences in general, sociological theories, statistics in the social sciences"@en , "Sozialwissenschaften (Allgemeines), Soziologische Theorien, Statistik in den Sozialwissenschaften"@de .
-
-<20>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Astronomy, space exploration"@en , "Astronomie, Weltraumforschung"@de .
 
 <7.9b>
         a               skos:Concept ;
@@ -547,11 +715,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Persons associated with politics (includes political scientists, state historians)"@en , "Personen (Politologen, Staatstheoretiker)"@de .
 
-<34*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Sports"@en , "Sport"@de .
-
 <27.12>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -566,11 +729,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Historical linguistics"@en , "Historische Sprachwissenschaft"@de .
-
-<31*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Technology and engineering"@en , "Technik"@de .
 
 <7.5f>
         a               skos:Concept ;
@@ -631,11 +789,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Wirtschaftsrecht, Gewerblicher Rechtsschutz"@de , "Economic and business law, industrial property protection"@en .
-
-<26>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Anthropology"@en , "Anthropologie"@de .
 
 <3.5>
         a               skos:Concept ;
@@ -794,11 +947,6 @@
         skos:prefLabel  "News media"@en , "Presse"@de ;
         skos:narrower   <2.3p> .
 
-<25*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Zoology"@en , "Zoologie"@de .
-
 <2.1p>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -828,11 +976,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Blood, cardiovascular system, respiratory system"@en , "Blut, Kardiovaskuläres System, Atmungsorgan"@de .
-
-<22*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Chemistry"@en , "Chemie"@de .
 
 <19.4p>
         a               skos:Concept ;
@@ -955,10 +1098,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Fisheries, aquaculture"@en , "Fischerei, Fischzucht"@de .
 
-<7*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Law and legislation, general administration"@en , "Recht, Allgemeine Verwaltung"@de .
 
 <3.4a>
         a               skos:Concept ;
@@ -969,11 +1108,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Film"@en , "Film"@de .
-
-<4*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Philosophy"@en , "Philosophie"@de .
 
 <15.3p>
         a               skos:Concept ;
@@ -1000,11 +1134,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Applied psychology, mental hygiene"@en , "Angewandte Psychologie, Psychohygiene"@de .
 
-<16*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "History"@en , "Geschichte"@de .
-
 <13.7p>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1020,10 +1149,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Pharmacy, pharmacology, toxicology, immunology"@en , "Pharmazie, Pharmakologie, Toxikologie, Immunologie"@de .
 
-<13*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Fine arts, photography"@en , "Bildende Kunst, Fotografie"@de .
 
 <10.1b>
         a               skos:Concept ;
@@ -1044,11 +1169,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Drawing, graphic arts"@en , "Zeichnung, Grafik"@de .
-
-<10*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Economics, traffic and transport, environmental protection, area planning"@en , "Wirtschaft, Verkehr, Umweltschutz, Raumordnung"@de .
 
 <13.1cy>
         a               skos:Concept ;
@@ -1358,11 +1478,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Verfahrenstechnik, Technische Chemie"@de , "Process engineering, industrial chemistry"@en .
 
-<33*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Housekeeping, body care, fashion, clothing"@en , "Hauswirtschaft, Körperpflege, Mode, Kleidung"@de .
-
 <3.4b>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1488,11 +1603,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "International economics, foreign trade (macroeconomic)"@en , "Außenwirtschaft, Außenhandel gesamtwirtschaftlich"@de .
 
-<28>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Mathematics"@en , "Mathematik"@de .
-
 <7.12a>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1543,11 +1653,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Immunology"@en , "Immunologie"@de .
 
-<27*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Medicine"@en , "Medizin"@de .
-
 <2.3p>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1568,11 +1673,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Criminal law"@en , "Strafrecht"@de .
 
-<24*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Botany"@en , "Botanik"@de .
-
 <31.16>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1582,11 +1682,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Inorganic chemistry"@en , "Anorganische Chemie"@de .
-
-<21*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Physics"@en , "Physik"@de .
 
 <12.3>
         a               skos:Concept ;
@@ -1709,11 +1804,6 @@
         skos:prefLabel  "The Bible"@en , "Bibel"@de ;
         skos:narrower   <3.2-3.6*> , <3.2a> , <3.2aa> , <3.2b> , <3.2ba> , <3.2p> .
 
-<9*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Sociology, society, labour, social history"@en , "Soziologie, Gesellschaft, Arbeit, Sozialgeschichte"@de .
-
 <27.21>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1738,11 +1828,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Mathematical methods, information, decision-making"@en , "Mathematische Methoden, Information, Entscheidung"@de .
-
-<6*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Culture, education, science"@en , "Kultur, Erziehung, Bildung, Wissenschaft"@de .
 
 <17.4>
         a               skos:Concept ;
@@ -1774,12 +1859,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Bank and banking"@en , "Bank"@de .
 
-<3*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Religion"@en , "Religion"@de ;
-        skos:narrower   <3.1> , <3.2> , <3.3> , <3.4*> , <3.5> , <3.6> .
-
 <15.2p>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1789,16 +1868,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Fremdenverkehr, Hotel- und Gaststättengewerbe"@de , "Tourism, hotel and catering industry"@en .
-
-<35>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Games and entertainment"@en , "Spiel, Unterhaltung"@de .
-
-<15*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Theater, Tanz, Film, Rundfunk"@de , "Theatre, dance, film, broadcasting"@en .
 
 <10.3b>
         a               skos:Concept ;
@@ -1819,11 +1888,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Persons associated with arts and crafts"@en , "Personen zu Kunsthandwerk"@de .
-
-<12*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Literature"@en , "Literatur"@de .
 
 <3.4c>
         a               skos:Concept ;
@@ -1935,11 +1999,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "International economics, foreign trade (business)"@en , "Außenwirtschaft, Außenhandel betrieblich"@de .
 
-<29>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Stochastics, operations research"@en , "Stochastik, Operations Research"@de .
-
 <7.12b>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -1980,11 +2039,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Literature (misc.)"@en , "Literatur (Allgemeines)"@de .
 
-<30>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Computer science, data processing"@en , "Informatik, Datenverarbeitung"@de .
-
 <31.9a>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -2004,11 +2058,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Ethik, Philosophische Anthropologie, Sozialphilosophie"@de , "Ethics, philosophical anthropology, social philosophy"@en .
-
-<00>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Non-specific headings"@en , "Unspezifische Allgemeinwörter"@de .
 
 <7.7b>
         a               skos:Concept ;
@@ -2130,11 +2179,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Persons associated with chemistry"@en , "Personen zu Chemie"@de .
 
-<1>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "General subjects, interdisciplinary general headings"@en , "Allgemeines, Interdisziplinäre Allgemeinwörter"@de .
-
 <10.8a>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -2186,11 +2230,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Procurement, production"@en , "Beschaffung, Produktion"@de .
 
-<32*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Agriculture, horticulture and gardening"@en , "Landwirtschaft, Garten"@de .
-
 <27.6>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -2225,11 +2264,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Labour law, social law, law on fees"@en , "Arbeitsrecht, Sozialrecht, Gebührenrecht"@de .
-
-<36>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Handicrafts, needlework, home improvement"@en , "Basteln, Handarbeiten, Heimwerken"@de .
 
 <10.3c>
         a               skos:Concept ;
@@ -2302,11 +2336,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Economic cycle, boom and recession"@en , "Wirtschaftskreislauf, Konjunktur"@de .
 
-<18>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "Nature, general natural sciences"@en , "Natur, Naturwissenschaften allgemein"@de .
-
 <9.5a>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -2362,27 +2391,6 @@
         skos:inScheme   <> ;
         skos:prefLabel  "Social history"@en , "Sozialgeschichte"@de .
 
-<>
-        a                              skos:ConceptScheme ;
-        rdfs:comment                   "\n            Changes from 2019-10-15 to 2021-02-08\n\t\t\tAdd english labels\n\t\t\tChanges from 2017-09-12 to 2019-10-15\n\t\t\tAll d-nb.info-URIs changed from http to https\n\t\t"@en ;
-        cc:license                     <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dc:description                 "The GND Subject Categories can be used to facilitate a\n\t\tsystematic access to subject headings and individual names in the Integrated Authority File\n\t\t(Gemeinsame Normdatei, GND), and also to create topical extracts or tranches thereof."@en , "Die GND-Sachgruppen werden dazu verwendet, einen systematischen\n\t\tZugang zu Individualnamen und Sachschlagwörtern der Gemeinsamen Normdatei (GND) zu ermöglichen und\n\t\tfachliche oder Ausschnitte oder Teilausgaben zu bilden."@de ;
-        dc:title                       "GND Subject Categories"@en , "GND-Sachgruppen"@de ;
-        dct:available                  "2022-02-08"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        dct:creator                    <file:///home/svensson/teamcity/TeamCity/buildAgent/work/b7c1b24fb5f6cfc7/src/main/resources/rdf/standards/vocab/gnd/gnd-sc.rdf#alexanderHaffner> ;
-        dct:issued                     "2012-06-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2021-10-14T10:31:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        dct:publisher                  <http://ld.zdb-services.de/resource/organisations/DE-101> ;
-        dct:rights                     "Copyright 2012-2022 Deutsche Nationalbibliothek" ;
-        vann:preferredNamespacePrefix  "gnd-sc" ;
-        vann:preferredNamespaceUri     "https://d-nb.info/standards/vocab/gnd/gnd-sc#" ;
-        owl:imports                    skos: ;
-        owl:priorVersion               <https://d-nb.info/standards/vocab/gnd/gnd-sc_20191015> ;
-        owl:versionIRI                 <https://d-nb.info/standards/vocab/gnd/gnd-sc_20220208> ;
-        owl:versionInfo                "1.3" ;
-        skos:hasTopConcept <00>, <1> , <2*> , <3*> , <4*>, <5*> , <6*> , <7*> ,  <8*> , <9*> , <10*>, <11*> , <12*> , <13*> , <14*> , <15*> , <16*> , <17*> , <18> , <19> , <20> , <21*> , <22*> , <23*> , <24*> , <25*> , <26> , <27*> , <28> , <29> , <30> , <31*> , <32*> , <33*> , <34*> , <35> , <36>.
-
 <7.9a>
         a               skos:Concept ;
         skos:inScheme   <> ;
@@ -2407,11 +2415,6 @@
         a               skos:Concept ;
         skos:inScheme   <> ;
         skos:prefLabel  "Police law, regulatory law"@en , "Polizeirecht, Ordnungsrecht"@de .
-
-<23*>
-        a               skos:Concept ;
-        skos:inScheme   <> ;
-        skos:prefLabel  "General biology, microbiology"@en , "Allgemeine Biologie, Mikrobiologie"@de .
 
 <19.5p>
         a               skos:Concept ;
