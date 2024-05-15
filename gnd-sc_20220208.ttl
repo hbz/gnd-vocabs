@@ -2350,7 +2350,7 @@
         skos:prefLabel  "Social history"@en , "Sozialgeschichte"@de .
 
 <>
-        a                              owl:Ontology , skos:ConceptScheme ;
+        a                              skos:ConceptScheme ;
         rdfs:comment                   "\n            Changes from 2019-10-15 to 2021-02-08\n\t\t\tAdd english labels\n\t\t\tChanges from 2017-09-12 to 2019-10-15\n\t\t\tAll d-nb.info-URIs changed from http to https\n\t\t"@en ;
         cc:license                     <http://creativecommons.org/publicdomain/zero/1.0/> ;
         dc:description                 "The GND Subject Categories can be used to facilitate a\n\t\tsystematic access to subject headings and individual names in the Integrated Authority File\n\t\t(Gemeinsame Normdatei, GND), and also to create topical extracts or tranches thereof."@en , "Die GND-Sachgruppen werden dazu verwendet, einen systematischen\n\t\tZugang zu Individualnamen und Sachschlagwörtern der Gemeinsamen Normdatei (GND) zu ermöglichen und\n\t\tfachliche oder Ausschnitte oder Teilausgaben zu bilden."@de ;

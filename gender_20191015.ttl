@@ -15,7 +15,7 @@
         skos:prefLabel   "Male"@en , "Männlich"@de .
 
 <https://d-nb.info/standards/vocab/gnd/gender#>
-        a                              skos:ConceptScheme , owl:Ontology ;
+        a                              skos:ConceptScheme ;
         rdfs:comment                   "\n\t\t\tChanges from 2017-09-12 to 2019-10-15\n\t\t\tAll d-nb.info-URIs changed from http to https\n\t\t"@en ;
         cc:license                     <http://creativecommons.org/publicdomain/zero/1.0/> ;
         dc:description                 "GND Gender is a value vocabulary (skos:ConceptScheme) listing \n\t\tthe possible gender values used in the RDF encoding of the information in the Integrated\n\t\tAuthority File (Gemeinsame Normdatei, GND)."@en , "GND-Geschlecht ist ein RDF value vocabulary (skos:ConceptScheme),\n\t\tdas die möglichen Werte auflistet, die Geschlechtsangaben in der RDF-Ausgabe der Gemeinsamen\n\t\tNormdatei (GND) haben können."@de ;
